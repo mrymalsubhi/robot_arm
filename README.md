@@ -1,5 +1,5 @@
 # robot_arm
-##First task.
+## First task.
 
 
 - الخطوة الاولى: نقوم بتثبيت نظام الروز ميلودك
@@ -43,7 +43,8 @@ catkin_make`
 
 ---
 
-- الخطوة الرابعة: نذهب الى المجلد source 
+- الخطوة الرابعة: نذهب الى المجلد source
+ 
 `cd ~/catkin_ws/src`
 
 ---
@@ -83,7 +84,9 @@ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control`
 
 - ومن ثم
 ctrl + o
+
 inter ومن ثم
+
 ctrl+x ومن ثم 
 
 ---
