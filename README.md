@@ -57,11 +57,13 @@ catkin_make`
 ---
 
 - الخطوة الخامسة: نقوم بالعودة الى مجلد catkin لتثبيت بعض الاوامرالخاصة بالروز 
+
 `cd ~/catkin_ws`
 
 ---
 
 - الخطوة السادسة: نقوم بكتابة الاوامر 
+
 `sudo apt-get install ros-kinetic-moveit
 
 sudo apt-get install ros-kinetic-joint-state-publisher ros-kinetic-joint-state-publisher-gui
