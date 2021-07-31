@@ -36,7 +36,7 @@ rosdep update
 
 ---
 
-- الخطوة الثالثة: نقوم بانشاء الwork space من خلال الاوامر:
+- الخطوة الثالثة: نقوم بانشاء الwork space :
 
 
 ```mkdir -p ~/catkin_ws/src
