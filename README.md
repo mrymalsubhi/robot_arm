@@ -75,11 +75,13 @@ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control`
 ---
 
 - بعد اضافة جميع الاوامر نذهب الى الملف 
+
 `sudo nano ~/.bashrc`
 
 ---
 
 - ونضيف في النهاية الامر 
+
 `source /home/maryam/catkin_ws/devel/setup.bash`
 
 ---
