@@ -43,7 +43,8 @@ rosdep update
 
 cd ~/catkin_ws/
 
-catkin_make```
+catkin_make
+```
 
 ---
 
@@ -73,7 +74,8 @@ sudo apt-get install ros-kinetic-joint-state-publisher ros-kinetic-joint-state-p
 
 sudo apt-get install ros-kinetic-gazebo-ros-control joint-state-publisher
 
-sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control```
+sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control
+```
 
 ---
 
