@@ -4,7 +4,7 @@
 
 - الخطوة الاولى: نقوم بتثبيت نظام الروز ميلودك
 
-`sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+```sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 
@@ -23,7 +23,7 @@ sudo apt install python-rosdep
 
 sudo rosdep init
 
-rosdep update`
+rosdep update```
 
 ---
 
@@ -36,11 +36,11 @@ rosdep update`
 - الخطوة الثالثة: نقوم بانشاء الwork space من خلال الاوامر:
 
 
-`mkdir -p ~/catkin_ws/src
+```mkdir -p ~/catkin_ws/src
 
 cd ~/catkin_ws/
 
-catkin_make`
+catkin_make```
 
 ---
 
@@ -64,13 +64,13 @@ catkin_make`
 
 - الخطوة السادسة: نقوم بكتابة الاوامر 
 
-`sudo apt-get install ros-kinetic-moveit
+```sudo apt-get install ros-kinetic-moveit
 
 sudo apt-get install ros-kinetic-joint-state-publisher ros-kinetic-joint-state-publisher-gui
 
 sudo apt-get install ros-kinetic-gazebo-ros-control joint-state-publisher
 
-sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control`
+sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control```
 
 ---
 
@@ -105,7 +105,8 @@ ctrl+x ومن ثم
 
 ---
 
-![7aecfc61-ee15-459b-9345-e8c27dfe4927](https://user-images.githubusercontent.com/85639068/127724114-b8ccf9f0-5055-4fef-a072-b2b9617e19bc.JPG)
+![7aecfc61-ee15-459b-9345-e8c27dfe4927](https://user-images.githubusercontent.com/85639068/127725522-1a9f9c17-3f25-4eb2-8b54-b87d51203f5c.JPG)
+
 
 ---
 
@@ -113,7 +114,8 @@ ctrl+x ومن ثم
 
 ---
 
-![2625be62-155f-44e8-bbc7-31b52b1b4f18](https://user-images.githubusercontent.com/85639068/127724157-f5294589-4299-4800-b6c2-e82ef7c1a73d.JPG)
+![028c269a-0f47-4c6d-9318-5464d68b72a3](https://user-images.githubusercontent.com/85639068/127725527-212150e3-8d72-436f-a830-d96c9f783b27.JPG)
+
 
 
 
