@@ -4,7 +4,8 @@
 
 - الخطوة الاولى: نقوم بتثبيت نظام الروز ميلودك
 
-`sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+`
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 
@@ -60,15 +61,13 @@ catkin_make`
 ---
 
 - الخطوة السادسة: نقوم بكتابة الاوامر 
-`rosdep install --from-paths src --ignore-src -r -y
+`sudo apt-get install ros-kinetic-moveit
 
-sudo apt-get install ros-melodic-moveit
+sudo apt-get install ros-kinetic-joint-state-publisher ros-kinetic-joint-state-publisher-gui
 
-sudo apt-get install ros-melodic-joint-state-publisher ros-melodic-joint-state-publisher-gui
+sudo apt-get install ros-kinetic-gazebo-ros-control joint-state-publisher
 
-sudo apt-get install ros-melodic-gazebo-ros-control joint-state-publisher
-
-sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control`
+sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control`
 
 ---
 
