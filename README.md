@@ -25,6 +25,7 @@ sudo rosdep init
 
 rosdep update```
 
+
 ---
 
 - الخطوة الثانية: نقوم بتثبيت الcatkin واللذي نستطيع من خلاله عمل الwork space  
