@@ -2,7 +2,7 @@
 ##First task.
 
 
--الخطوة الاولى: نقوم بتثبيت نظام الروز ميلودك
+- الخطوة الاولى: نقوم بتثبيت نظام الروز ميلودك
 
 `sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
@@ -23,42 +23,42 @@ sudo apt install python-rosdep
 
 sudo rosdep init
 
-rosdep update `
+rosdep update`
 
 ---
 
--الخطوة الثانية: نقوم بتثبيت الcatkin واللذي نستطيع من خلاله عمل الwork space  
+- الخطوة الثانية: نقوم بتثبيت الcatkin واللذي نستطيع من خلاله عمل الwork space  
 
-` sudo apt-get install ros-noetic-catkin`
+`sudo apt-get install ros-noetic-catkin`
 
 ---
 
--الخطوة الثالثة: نقوم بانشاء الwork space من خلال الاوامر:
+- الخطوة الثالثة: نقوم بانشاء الwork space من خلال الاوامر:
 
-` mkdir -p ~/catkin_ws/src
+`mkdir -p ~/catkin_ws/src
 
 cd ~/catkin_ws/
 
-catkin_make `
+catkin_make`
 
 ---
 
--الخطوة الرابعة: نذهب الى المجلد source 
-` cd ~/catkin_ws/src`
+- الخطوة الرابعة: نذهب الى المجلد source 
+`cd ~/catkin_ws/src`
 
 ---
 
--ومن مجلد "source" نقوم بالدخول الى الباكجز الخاصة بالمسارات الذكية
-`git clone https://github.com/smart-methods/arduino_robot_arm.git `
+- ومن مجلد "source" نقوم بالدخول الى الباكجز الخاصة بالمسارات الذكية
+`git clone https://github.com/smart-methods/arduino_robot_arm.git`
 
 ---
 
--الخطوة الخامسة: نقوم بالعودة الى مجلد catkin لتثبيت بعض الاوامرالخاصة بالروز 
-`cd ~/catkin_ws `
+- الخطوة الخامسة: نقوم بالعودة الى مجلد catkin لتثبيت بعض الاوامرالخاصة بالروز 
+`cd ~/catkin_ws`
 
 ---
 
--الخطوة السادسة: نقوم بكتابة الاوامر 
+- الخطوة السادسة: نقوم بكتابة الاوامر 
 `rosdep install --from-paths src --ignore-src -r -y
 
 sudo apt-get install ros-melodic-moveit
@@ -71,17 +71,17 @@ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control`
 
 ---
 
--بعد اضافة جميع الاوامر نذهب الى الملف 
-` sudo nano ~/.bashrc `
+- بعد اضافة جميع الاوامر نذهب الى الملف 
+`sudo nano ~/.bashrc`
 
 ---
 
--ونضيف في النهاية الامر 
-` source /home/maryam/catkin_ws/devel/setup.bash`
+- ونضيف في النهاية الامر 
+`source /home/maryam/catkin_ws/devel/setup.bash`
 
 ---
 
--ومن ثم
+- ومن ثم
 ctrl + o
 inter ومن ثم
 ctrl+x ومن ثم 
@@ -93,8 +93,8 @@ ctrl+x ومن ثم
 
 ---
 
--الخطوة الاخيرة: نقوم بتشغيل برنامج المحاكي من خلال الامر 
-` roslaunch robot_arm_pkg check_motors.launch `
+- الخطوة الاخيرة: نقوم بتشغيل برنامج المحاكي من خلال الامر  
+`roslaunch robot_arm_pkg check_motors.launch`
 
 ---
 
@@ -102,7 +102,7 @@ ctrl+x ومن ثم
 
 ---
 
--ومن ثم نستطيع التحكم بالذراع
+- ومن ثم نستطيع التحكم بالذراع
 
 ---
 
